@@ -1,0 +1,10 @@
+h1{
+text-align:center;
+color:red;
+text-decoration:underline overline line-through;
+text-decoration-style:solid;
+}
+p{
+text-indent:200px;
+text-align:justify;
+}
