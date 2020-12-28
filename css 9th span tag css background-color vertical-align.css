@@ -1,0 +1,36 @@
+.head1{
+text-align:center;
+color:blue;
+text-decoration:underline;
+text-decoration-style:solid;
+text-transform:uppercase;
+text-shadow:5px 2px yellow;
+}
+.txt{
+text-indent:200px;
+text-align:justify;
+letter-spacing:2px;
+word-spacing:5px;
+line-height:25px;
+font-family:Bodoni MT;
+font-size:20px;
+font-weight:900px;
+font-variant:small-caps;
+}
+a{
+text-decoration:none;
+}
+.txt1{
+font-size:30px;
+color: blue;
+}
+span.text2{
+vertical-align:10px;
+}
+span.text3{
+vertical-align:-10px;
+}
+span.text4{
+background-color:blue;
+color:white;
+}
