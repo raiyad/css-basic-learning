@@ -1,0 +1,15 @@
+p.text{
+border-style:solid;
+border-color:hsla(359,100%,53%,0.6);
+background-color:lightgrey;
+border-color:red green blue yellow;
+}
+p.text1{
+border-style:solid;
+border-color:hsla(359,100%,53%,0.6);
+background-color:lightgrey;
+border-top-color:blue;
+border-left-color:green;
+border-right-color:black;
+border-bottom-color:red;
+}

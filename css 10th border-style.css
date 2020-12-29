@@ -1,0 +1,7 @@
+p.text{
+border-style:solid dotted dashed double;
+}
+p.text1{
+border-top-style:solid;
+border-bottom-style:dashed;
+}
