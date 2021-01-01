@@ -1,0 +1,8 @@
+.background{
+width:1300px;
+height:700px;
+border:2px solid red;
+background-image:linear-gradient(red,yellow),url("paris.jpg");
+background-blend-mode:hue;
+background-size:1300px 700px;
+}

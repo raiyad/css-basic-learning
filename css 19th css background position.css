@@ -1,0 +1,8 @@
+.background{
+width:1300px;
+height:700px;
+border:2px solid red;
+background-image:url("paris.jpg");
+background-repeat:no-repeat;
+ background-position:center;
+}
