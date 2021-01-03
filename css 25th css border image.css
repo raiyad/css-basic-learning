@@ -1,0 +1,10 @@
+.background{
+width:100%;
+height:600px;
+border:10px solid;
+border-image-source:url(love.png);
+border-image-slice:25;
+border-image-repeat:round;
+border-image-width:50px;
+
+}
