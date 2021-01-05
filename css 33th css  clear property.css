@@ -1,0 +1,15 @@
+.left{
+width:500px;
+border:1px solid red;
+float:left;
+}
+.right{
+width:500px;
+border:1px solid red;
+float:right;
+}
+.mid{
+width:100%
+border:1px solid red;
+clear:both;
+}
