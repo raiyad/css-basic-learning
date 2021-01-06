@@ -1,0 +1,16 @@
+.left{
+writing-mode:vertical-lr;
+width:600px;
+}
+.right{
+writing-mode:sideways-rl;
+writing-mode:vertical-rl;
+width:800px;
+}
+p{
+writing-mode:sideways-rl;
+writing-mode:vertical-rl;
+width:400px;
+text-orientation:upright;
+}
+

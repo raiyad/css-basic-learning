@@ -1,0 +1,16 @@
+.left{
+white-space:nowrap
+}
+.right{
+white-space:pre;
+}
+.mid{
+white-space:pre-line;
+border:1px solid;
+width:500px;
+}
+.last{
+white-space:pre-wrap;
+border:1px solid;
+width:500px;
+}
