@@ -1,0 +1,11 @@
+.background{
+column-count:5;
+column-gap:50px;
+column-rule-style:solid;
+column-rule-color:yellow;
+column-rule-width:10px;
+}
+h1{
+column-span:all;
+color:#ff00bf;
+}

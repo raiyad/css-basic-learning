@@ -1,0 +1,10 @@
+.background{
+border:1px solid red;
+width:500px;
+resize:both;
+overflow:auto;
+}
+textarea{
+resize:none;
+}
+
