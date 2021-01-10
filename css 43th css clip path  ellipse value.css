@@ -1,0 +1,10 @@
+.background{
+width:300px;
+height:300px;
+border:1px solid red;
+clip-path:ellipse(20% 30% at 125px 135px);
+background-color:red;
+}
+img{
+clip-path:ellipse(15% 29% at 506px 274px);
+}

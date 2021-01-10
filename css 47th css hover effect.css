@@ -1,0 +1,25 @@
+h1:hover{
+font-size:100px;
+}
+.btn{
+width:100px;
+height:50px;
+}
+.btn:hover{
+background:red;
+border:2px solid green;
+border-radius:50%;
+}
+a:hover{
+color:red;
+}
+.animation{
+height:100px;
+width:200px;
+background:red;
+}
+.animation:hover{
+width:500px;
+height:500px;
+}
+
