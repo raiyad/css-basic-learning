@@ -1,0 +1,13 @@
+.animation{
+height:200px;
+width:200px;
+background:red;
+transition-property:width;
+transition-duration:5s;
+transition-delay:0s;
+transition-timing-function:steps(8); 
+}
+.animation:hover{
+width:700px;
+}
+

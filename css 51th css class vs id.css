@@ -1,0 +1,13 @@
+.font{
+color:red;
+margin-left:30px;
+font-family:Forte;
+}
+#green{
+color:green;
+text-shadow:2px 2px 1px red;
+}
+#red{
+color:yellow;
+text-shadow:2px 2px 1px red;
+}
