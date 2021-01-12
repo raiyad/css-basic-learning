@@ -1,0 +1,7 @@
+li:nth-last-child(even){
+color:red;
+}
+
+li:nth-last-child(odd){
+color:blue;
+}
