@@ -1,0 +1,18 @@
+.main{
+border-radius:10px 10px 20px 20px;
+height:150px;
+width:200px;
+background-color:EFEAE9;
+margin:300px auto;
+box-shadow:1px 1px 5px 3px black;
+}
+.form{margin:20px;}
+input[type="email"]:invalid{
+border:1px solid red;
+box-shadow:1px 1px 1px red;
+}
+
+input[type="email"]:valid{
+border:1px solid green;
+box-shadow:1px 1px 1px blue;
+}

@@ -1,0 +1,100 @@
+
+<html>
+<head>
+<style>
+input[type="text"]:focus{
+width:400px;
+color:yellow;
+background:pink;
+}
+sup{
+color:red;
+}
+input:required{
+border:1px solid red;
+}
+input:optional{
+background:blue;
+}
+input:in-range{
+color:green;
+}
+
+input:out-of-range{
+background-color:black;
+}
+
+
+
+div{
+width:50%;
+height:460px;
+margin:10% 25% 10% 25%;
+background:white;
+}
+span{
+left-margin:100px;
+font-size:30px;
+}
+.txt{
+width:300px;
+border-radius:5px 5px 5px 5px;
+}
+table{
+margin:5px 5% 10% 10%;
+}
+body{
+background-image:url("wood.jpg");
+}
+#btn{
+width:120px;
+height:40px;
+background:green;
+transition:border-radius 2s;
+}
+#btn:hover{
+background:red;
+border-radius:50%;
+}
+h1{
+color:#966f33;
+}
+</style>
+</head>
+<body>
+<div>
+<center><h1> STUDENT REGISTRATION FORM </h1></center>
+<form>
+<fieldset>
+<legend>Form:</legend>
+<table>
+<tr><td>FULL NAME:</td><td><input class="txt" type="text" required style="margin-right:180px";></td></tr>
+<tr><td>Father's Name:<sup>*</sup></td><td><input class="txt" type="text"style="margin-right:180px";></td></tr>
+<tr><td>Date of Birth: </td><td><input type="date"style="margin-right:180px";></td></tr>
+<tr><td>your age:<sup>*</sup>:</td><td><input type="number" max="30" min="25" required></td></tr>
+<tr><td>Area name:</td><td><input class="txt" type="text"required style="margin-right:180px";></td></tr>
+
+<tr>
+<td>  
+Select Location:
+</td>
+<td>
+<select>
+<option>No Select </option>
+<option value="mirpur">MIRPUR</option>
+<option value="banani">BANANI </option>
+<option value="dhanmondi">DHANMONDI</option>
+<option value="uttara">UTTARA </option>
+</select>
+</td>
+</tr>
+
+
+
+</div>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
+
