@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css 67th css pseudo element placeholder.css">
+<style>
+input[type="checkbox"]:checked{
+box-shadow:0 0 0 3px green;
+}
+input[type="radio"]:checked+label{
+color:green;
+}
+
+input[type="text"]:focus{
+width:400px;
+color:yellow;
+background:pink;
+}
+div{
+width:70%;
+height:460px;
+margin:10% 25% 10% 25%;
+background:white;
+}
+span{
+left-margin:100px;
+font-size:30px;
+}
+.txt{
+width:300px;
+border-radius:5px 5px 5px 5px;
+}
+table{
+margin:5px 15% 15% 15%;
+}
+body{
+background-image:url("wood.jpg");
+}
+#btn{
+width:120px;
+height:40px;
+background:green;
+transition:border-radius 2s;
+}
+#btn:hover{
+background:red;
+border-radius:50%;
+}
+h1{
+color:#966f33;
+}
+</style>
+</head>
+<body>
+<div>
+<center><h1> STUDENT REGISTRATION FORM </h1></center>
+<form>
+<fieldset>
+<legend>Form:</legend>
+<table>
+<tr><td>FULL NAME:</td><td><input class="txt" type="text"style="margin-right:180px";  placeholder="enter your full name"></td></tr>
+<tr><td>Father's Name:</td><td><input class="txt" type="text"style="margin-right:180px"; placeholder="enter your father name"></td></tr>
+<tr><td>Date of Birth: </td><td><input type="date"style="margin-right:180px";></td></tr>
+<tr><td>Area name:</td><td><input class="txt" type="text"style="margin-right:180px";></td></tr>
+<tr><td>Qulaification:</td><td> SSC PASS <input type="checkbox" value ="ssc pass" name="ssc pass">HSC PASS <input type="checkbox" value ="hsc pass" name="hsc pass">
+BSC PASS <input type="checkbox" value ="bsc pass" name="bsc pass"></td></tr>
+<tr><td>Gender: </td><td><input type="radio" name="gender" value="male"><label>male</label><input type="radio" name="gender" value="female"><label>Female</label><input type="radio" name="gender" value="others"><label>others</label></td></tr>
+
+
+<tr>
+<td>  
+Select Location:
+</td>
+<td>
+<select>
+<option>No Select </option>
+<option value="mirpur">MIRPUR</option>
+<option value="banani">BANANI </option>
+<option value="dhanmondi">DHANMONDI</option>
+<option value="uttara">UTTARA </option>
+</select>
+</td>
+</tr>
+
+
+
+</div>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
