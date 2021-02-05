@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.load{
+width:80px;
+height:80px;
+display:inline-block;
+position:absolute;
+top:250px;
+left:600px;
+}
+.load:after{
+content:" ";
+width:50px;
+height:50px;
+display:block;
+border:6px solid red;
+border-radius:50%;
+border-color:red transparent;
+animation:raiyad 1s linear infinite;
+}
+@keyframes raiyad{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+</style>
+</head>
+ <body>
+<div class="load"></div>
+</body>
+</html>
+

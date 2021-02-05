@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+.load{
+width:80px;
+height:80px;
+display:inline-block;
+position:absolute;
+top:250px;
+left:600px;
+}
+.load:after{
+content:" ";
+width:0px;
+height:0px;
+display:block;
+border:32px solid grey;
+border-radius:50%;
+border-color:grey transparent;
+border-sizing:border-box;
+animation:raiyad 1s linear infinite;
+}
+@keyframes raiyad{
+0%{transform:rotate(0deg);animation-timing-function:cubic-bezier(0.55,0.055,0.675,0.19);}
+50%{transform:rotate(0deg);animation-timing-function:cubic-bezier(0.215,0.61,0.355,1);}
+100%{transform:rotate(1600deg);}
+
+}
+
+</style>
+</head>
+ <body>
+<div class="load"></div>
+</body>
+</html>
