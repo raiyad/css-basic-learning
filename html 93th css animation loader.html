@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.load{
+width:90px;
+height:90px;
+background:blue;
+opacity:.5;
+animation:raiyad 2s infinite ease-in-out;
+position:absolute;
+top:200px;
+left:600px;
+}
+@keyframes raiyad{
+0%{transform:perspective(120px);}
+50%{transform:perspective(120px) rotateY(180deg);}
+100%{transform:perspective(120px) rotateY(180deg) rotateX(180deg);}
+}
+
+@keyframes raiyad{
+0%{transform:perspective(120px) rotateY(0deg) rotateX(0deg);}
+50%{transform:perspective(120px) rotateX(-180deg) rotateY(0deg);}
+100%{transform:perspective(120px) rotateY(-170deg) rotateX(180deg);}
+}
+
+</style>
+</head>
+ <body>
+<div class="load"></div>
+</body>
+</html>
