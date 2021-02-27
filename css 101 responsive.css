@@ -1,0 +1,22 @@
+/**/
+@media (min-width:1200px){
+  body{background:red;}
+  .card{width:200px; height:200px; border:1px solid green; background:black;}
+}
+@media (max-width:1199px){
+  body{background:blue;}
+  .card{width:200px; height:200px; border:1px solid green; background:black; border-radius:20%;}
+}
+@media (max-width:991px){
+  body{background:black;}
+}
+@media (max-width:767px){
+  body{background:gray;}
+}
+@media (max-width:575px){
+  body{background:yellow;}
+.card{width:200px; height:200px; border:1px solid pink; background:black; border-radius:50%;}
+}
+
+
+
