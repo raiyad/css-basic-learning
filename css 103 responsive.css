@@ -1,0 +1,22 @@
+@media(min-width:1200px){
+.card{width:200px; height:200px; background:red;}
+
+}
+
+@media(min-width:992px) and (max-width:1199px){
+.card{width:200px; height:200px; background:red;border-radius:30px;}
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+.card{width:200px; height:200px; background:red;border-radius:30px;float:right;}
+     
+}
+
+@media(min-width:576px) and (max-width:767px){
+
+.card{width:200px; height:200px; background:red;border-radius:30px;margin:auto;}
+}
+@media(max-width:575px){
+.card{width:200px; height:200px; background:red;border-radius:50%;margin:auto;}   
+}
