@@ -1,0 +1,72 @@
+*{margin:0;padding:0;}
+.body{width:100%;height:600px;}
+.head{width:100%;height:40px;}
+.left-head{width:50%;height:100%;background:rgba(0,0,0, .2);float:left;}
+.right-icon{width:50%;height:100%;background:rgba(0,0,0, .2);float:right;}
+
+
+.menu{width:100%;height:50px; background:black;}
+.slider{width:100%;height:250px;background:pink;}
+.content{width:100%;height:450px;background:yellow;}
+
+
+.left{width:20%;height:100%;background:green;float:left;}
+.middle{width:60%;height:100%;background:white;float:left;}
+.right{width:20%;height:100%;background:green;float:right;}
+.footer{width:100%;height:50px; background:black;}
+.design{font-size:30px;color:white;margin-left:20px;}
+span{font-size:30px;float:right;margin-right:25px;}
+
+@media(min-width:1200px){
+
+            /*Extra large Device*/
+}
+
+@media(min-width:992px) and (max-width:1199px){
+
+            /*large Device*/
+			.design{margin-left:100px;}
+			
+			
+			
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+           /*Medium Device*/
+		   .right{display:none;}
+		   .middle{width:80%;}
+		   .head{width:100%;height:80px;}
+.left-head{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.right-icon{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.design{margin-left:300px;}
+		   
+}
+
+@media(min-width:576px) and (max-width:767px){
+        /* Small Device*/
+		.left{display:none;}
+		.right{display:none}
+		.middle{width:100%;}
+		.head{width:100%;height:80px;}
+		.left-head{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.right-icon{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.design{margin-left:30px;}
+span{font-size:20px;margin-top:5px;}
+
+}
+@media(max-width:575px){
+      /*Extra Small Device*/
+	  
+	  .left{display:none;}
+		.right{display:none}
+		.middle{width:100%;}
+		.head{width:100%;height:80px;}
+		.left-head{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.right-icon{width:100%;height:40px;background:rgba(0,0,0, .2);}
+.design{margin-left:30px;float:right;}
+span{font-size:20px;margin-left:5px;float:left;}
+
+}
+
+
